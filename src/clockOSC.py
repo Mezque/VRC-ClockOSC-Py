@@ -11,8 +11,6 @@ def send_message():
     # And "%I:%M:%S %p" would result in Hours in 12 hour clock followed by Minutes:Seconds with the appropriate meridiem displayed after.
     # %I:%M:%S %p (%H:%M) in %Z is what I have mine as, [ 12H:Min:Sec meridiem (24 hour time) in TIMEZONENAME ]
     curr_time = time.strftime("%I:%M:%S %p (%H:%M) in %Z", time.localtime())
-    
-    print(curr_time) #debug print to make sure the time is right.
     osc_message[0] = f"{curr_time}"
     CLIENT.send_message("/chatbox/input",osc_message)
     time.sleep(SLEEP)
