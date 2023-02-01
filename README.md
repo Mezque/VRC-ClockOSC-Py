@@ -8,7 +8,7 @@
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#download">Download</a> •
-  <a href="#spotify-dev-portal">Dev Portal Instructions</a> •
+  <a href="#Dependencies">Dependencies</a> •
   <a href="#credits">Credits</a> •
   <a href="#license">License</a>
 </p>
@@ -18,6 +18,10 @@
   - Able to change the time formatting very easy, by [following this](https://docs.python.org/2/library/time.html#time.strftime) guide on what letters do what in time.strftime, change the letters inside this string `("%I:%M:%S %p (%H:%M) in %Z"` in this line.</br> `curr_time = time.strftime("%I:%M:%S %p (%H:%M) in %Z", time.localtime())`
 * Cross platform
   - Windows, macOS and Linux ready.
+  
+  ![Screenshot_20230131_000013](https://user-images.githubusercontent.com/31026406/215679497-5ec1f038-4d7e-4fe9-8db1-80bc0079b96e.png)
+
+  
 ## How To Use
 
 To clone and run this application, you'll need [Python](https://www.python.org/downloads/) and [git](https://gitforwindows.org/) (links for windows) From your command line:
