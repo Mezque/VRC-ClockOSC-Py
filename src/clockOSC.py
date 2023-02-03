@@ -4,6 +4,7 @@ from pythonosc.udp_client import SimpleUDPClient
 CLIENT = SimpleUDPClient("127.0.0.1", 9000) #Don't touch
 SLEEP = 2 #set as desired time to wait to update osc input
 
+print(f"Started Python OSC Clock: https://github.com/Mezque/VRC-ClockOSC-Py")
 osc_message = ["", True] #Don't touch
 def send_message():
     # Below can be set as any of the following to format time display https://docs.python.org/2/library/time.html#time.strftime
